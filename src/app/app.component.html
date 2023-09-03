@@ -1,0 +1,19 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<div class = "contenedorPrincipal">
+<input type="text" [(ngModel)]="edadUno" placeholder="Ingrese la primer edad"/>
+<br>
+<input type="text" [(ngModel)]="edadDos" placeholder="Ingrese la segunda edad"/>
+<br>
+<input type="button" value="Calcular" (click)="hacerCalculos()"/>
+<input type="button" value="Limpíar cuadros de texto" (click)="limpiarValores()"><br>
+<input type="text" [value]="valorPromedio" disabled><br>
+<input type="text" [value]="valorSuma" disabled>
+</div>
+<router-outlet></router-outlet>

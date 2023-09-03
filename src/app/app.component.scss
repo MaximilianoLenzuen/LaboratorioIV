@@ -1,0 +1,9 @@
+.contenedorPrincipal{
+    display: flex;
+    flex-direction: column; /* Opcional: Si deseas centrar verticalmente también */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+}
