@@ -26,3 +26,10 @@ export class AppComponent {
   }
 
 }
+
+export class Usuario {
+
+  public nombre : string = "";
+  public clave : string = "";
+
+}
